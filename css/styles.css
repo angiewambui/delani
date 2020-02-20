@@ -16,3 +16,17 @@ header {
   text-align: center;
   padding-top: 200px;
 }
+.about {
+  text-align: center;
+  padding-top: 30px;
+}
+.service {
+  text-align: center;
+  padding-top: 90px;
+  color: white;
+}
+.services {
+  background-image: url("../img/s_image.jpg"); height: 300px;
+  margin-top: 50px;
+  background-size: cover;
+}
