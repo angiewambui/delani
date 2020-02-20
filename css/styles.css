@@ -30,3 +30,38 @@ header {
   margin-top: 50px;
   background-size: cover;
 }
+#design {
+  display: none;
+}
+.design-showing {
+display: none;
+}
+.clickable {
+  cursor: pointer;
+  color: #0088cc;
+}
+.container {
+  text-align: center;
+  margin-top: 40px;
+  
+}
+#development {
+  display: none;
+}
+.development-showing {
+display: none;
+}
+.click {
+  cursor: pointer;
+  color: #0088cc;
+}
+#product-management {
+  display: none;
+}
+.product-management-showing {
+display: none;
+}
+.clic {
+  cursor: pointer;
+  color: #0088cc;
+}
