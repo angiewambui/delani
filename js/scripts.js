@@ -14,7 +14,6 @@ $(document).ready(function() {
     $(".product-management-hidden").toggle();
     $("#product-management").show();
   });
-});
 $("#submit").click(function(){
   var name = $("#contactName").val();
   var email = $("#contactEmail").val();
@@ -24,4 +23,5 @@ $("#submit").click(function(){
   $(".textArea").text(info);
   $("#output").show();
   alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
-});
+  });
+});  
