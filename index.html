@@ -8,6 +8,11 @@
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script   src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
     <script src="js/scripts.js"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.13.0/css/mdb.min.css" rel="stylesheet">
     <title>Delani Studio</title>
     <header>
         <div class="logo">
@@ -44,7 +49,6 @@
     <div class="container">
         <h2>WHAT WE DO</h2> 
         <div class="row">
-            <div class="row-1">
             <div class="col-md-4"> 
               <div class="design-hidden">
               <span class="clickable"><img src="img/design_icon.png"></span>
@@ -76,28 +80,112 @@
             </div>  
           </div>
         </div>
-        <div class="row-2">
-          <div class="portfolio">
-              <h2>PORTFOLIO</h2>
-          </div>
-        </div>
-        <div class="row-3">
-          <div class="col-md-3">
-              <img id="work4" src="img/work4.jpg">
-              <img  id="work5" src="img/work5.jpg">
-          </div> 
-          <div class="col-md-3">
-              <img  id="work3" src="img/work3.jpg">
-              <img id="work6" src="img/work6.jpg">
-          </div> 
-          <div class="col-md-3">
-              <img id="work2" src="img/work2.jpg">
-              <img id="work7" src="img/work7.jpg">
-          </div>
-          <div class="col-md-3">
-              <img id="work1" src="img/work1.jpg">
-              <img id="work8" src="img/work8.jpg">
-          </div>  
+    <div class="container" >
+        <div class="heading"><h1>PORTFOLIO</h1></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="mdb-lightbox">
+                        <div class= "row">
+                            <figure class="col-md-3 ">
+                                <div class="view overlay">
+                                    <div class="image-frame">
+                                        <img src="./img/work4.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="overlay1">
+                                        <div class="mask flex-center  rgba-blue-light">
+                                            <p class="text-white" > Grey Project</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <figure class="col-md-3 ">
+                                <div class="view overlay">
+                                    <div class="image-frame">
+                                        <img src="./img/work3.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="mask flex-center  rgba-blue-light">
+                                        <p class="text-white" > overlay </p>
+                                    </div>
+                                </div>
+                            </figure>
+                            <figure class="col-md-3 ">
+                                <div class="view overlay">
+                                    <div class="image-frame">
+                                        <img src="./img/work2.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="overlay1">
+                                        <div class="mask flex-center  rgba-blue-light">                       
+                                          <p class="text-white"> overlay </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <figure class="col-md-3 ">
+                                <div class="view overlay">
+                                    <div class="image-frame">
+                                        <img src="./img/work1.jpg" class="img-fluid">
+                                    </div>
+                                    <div class="overlay1">
+                                        <div class="mask flex-center  rgba-blue-light">
+                                          <p> overlay </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </figure>
+                            <div class="row">
+                                <figure class="col-md-3 ">
+                                    <div class="view overlay">
+                                        <div class="image-frame">
+                                            <img src="./img/work5.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="overlay1">
+                                            <div class="mask flex-center  rgba-blue-light">
+                                              <p> overlay </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="col-md-3 ">
+                                    <div class="view overlay">
+                                        <div class="image-frame">
+                                            <img src="./img/work6.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="overlay1">
+                                            <div class="mask flex-center  rgba-blue-light">
+                                              <p> overlay </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="col-md-3 ">
+                                    <div class="view overlay">
+                                        <div class="image-frame">
+                                            <img src="./img/work7.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="overlay1">
+                                            <div class="mask flex-center  rgba-blue-light">
+                                              <p> overlay </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                                <figure class="col-md-3 ">
+                                    <div class="view overlay">
+                                        <div class="image-frame">
+                                            <img src="./img/work8.jpg" class="img-fluid">
+                                        </div>
+                                        <div class="overlay1">
+                                            <div class="mask flex-center  rgba-blue-light">
+                                              <p> overlay </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </figure>
+                            </div>
+                    </div></div>
+                </div>
+            </div>
         </div>
     </div>
     <div class="footer">   
@@ -107,11 +195,6 @@
             <input placeholder="Email..." type="text" id="contactEmail"/>
             <input placeholder="Type your message here..." type="text" id="textArea"><br>
             <button class="submitBtn" id="submit" type="submit">SUBMIT</button>
-        </div>
-        <div id="output">
-            <p id="contactInfo">
-                <span class="contactName"></span> user of email <span class="contactEmail"></span>
-                would wish to tell us that: <span class="textArea">.</p>
         </div>
     </div>
     <div class="socials">

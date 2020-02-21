@@ -21,7 +21,6 @@ $("#submit").click(function(){
   $(".contactName").text(name);
   $(".contactEmail").text(email);
   $(".textArea").text(info);
-  $("#output").show();
   alert("Thank you " + name + " for your feedback. We will be in touch via " +email);
   });
 });  

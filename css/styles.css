@@ -129,23 +129,6 @@ display: none;
 .portfolio {
   text-align: center;
 }
-
-.row {
-  display: flex;
-  flex-direction: column;
-}
-
-.row-1 {
-  display: flex;
-  flex-direction: row;
-}
-
-.row-3 {
-  display: flex;
-  flex-direction: row;
-  margin-bottom: 30px;
-
-}
 .footer{
 	background-image: url("../img/c_image.jpg"); background-size: cover;
 	background-attachment: fixed;
@@ -188,14 +171,7 @@ input::placeholder{
 	color: gold;
 	transition: all 0.5s ease-in;
 }
-#output{
-	text-align: center;
-	display: none;
-	background-color: black;
-	color: white;
-	padding: 5px;
-	margin: 0px 50px 0px 50px;
-}
+
 #textArea{
 	color: white;
 	padding-bottom: 200px;
