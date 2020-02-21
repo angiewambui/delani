@@ -149,7 +149,7 @@ display: none;
 .footer{
 	background-image: url("../img/c_image.jpg"); background-size: cover;
 	background-attachment: fixed;
-	height: 650px;
+	height: 500px;
 	color: white;
 }
 .footer h1{
@@ -201,4 +201,6 @@ input::placeholder{
 	padding-bottom: 200px;
 	width: 800px;
 }
-
+.socials {
+  margin-top: 30px;
+}
