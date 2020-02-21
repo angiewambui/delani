@@ -43,7 +43,6 @@ display: none;
 .container {
   text-align: center;
   margin-top: 40px;
-  
 }
 #development {
   display: none;
@@ -67,49 +66,71 @@ display: none;
 }
 .col-md-3 {
   text-align: center;
-  margin-top: 100px;
+  margin-top: 50px;
+  padding-right: 0px;
+  padding-left: 0px;
 }
 #work1 {
   padding: 5px;
   height: 200px;
-  width: 200px;
-  margin-right: 50px;
+  width: 280px;
+  /* margin-right: 50px; */
 }
 #work2 {
   padding: 5px;
   height: 200px;
-  width: 200px;
+  width: 280px;
 }
 #work3 {
   padding: 5px;
   height: 200px;
-  width: 200px;
+  width: 280px;
 }
 #work4 {
   padding: 5px;
   height: 200px;
-  width: 200px;
-  margin-left: 50px;
+  width: 280px;
+  /* margin-left: 50px; */
 }
 #work5 {
   padding: 5px;
   height: 200px;
-  width: 200px;
-  margin-left: 50px;
+  width: 280px;
+  /* margin-left: 50px; */
 }
 #work6 {
   padding: 5px;
   height: 200px;
-  width: 200px;
+  width: 280px;
 }
 #work7 {
   padding: 5px;
   height: 200px;
-  width: 200px;
+  width: 280px;
 }
 #work8 {
   padding: 5px;
   height: 200px;
-  width: 200px;
-  margin-right: 50px;
+  width: 280px;
+  /* margin-right: 50px; */
+}
+.portfolio {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-1 {
+  display: flex;
+  flex-direction: row;
+}
+
+.row-3 {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+
 }
